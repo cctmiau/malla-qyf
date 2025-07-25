@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: #fdf6f9;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.semestre {
+  border: 2px dashed #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.ramo {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #ffb6c1; /* Rosado */
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  color: #333;
+}
+
+.ramo.aprobado {
+  background-color: mediumorchid;
+  color: white;
+  text-decoration: line-through;
+}
+
+.ramo.bloqueado {
+  background-color: #d3d3d3;
+  color: #777;
+  cursor: not-allowed;
+}
